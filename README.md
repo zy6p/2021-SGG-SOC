@@ -1,6 +1,8 @@
 # 2021-SGG-SOC
 
-2021 WHU SGG summer of code 2021 测绘学院暑期 C++ 编程学校
+2021 WHU SGG summer of code    
+
+2021 测绘学院暑期 C++ 编程学校
 
 ## ℹ️ 项目介绍
 
