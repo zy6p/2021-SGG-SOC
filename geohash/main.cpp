@@ -8,5 +8,10 @@ int main() {
     printf("P(%f, %f) encode(%d): %llu\n", p.lon, p.lat, p.geoHashBits.step,
            p.geoHashBits.bits);
   }
+  for (; p.geoHashBits.step > 0; p.geoHashBits.step--) {
+    p.geohash_decode();
+    printf("P(%f, %f) decode(%d): %llu\n", p.lon, p.lat, p.geoHashBits.step,
+           p.geoHashBits.bits);
+  }
   return 0;
 }
