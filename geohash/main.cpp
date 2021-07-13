@@ -1,6 +1,12 @@
-#include <iostream>
+#include "geohash.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  Point p{114.20, 30.91, {0, 1}};
+
+  for (; p.geoHashBits.step <= 32; p.geoHashBits.step++) {
+    p.geohash_encode();
+    printf("P(%f, %f) encode(%d): %llu\n", p.lon, p.lat, p.geoHashBits.step,
+           p.geoHashBits.bits);
+  }
+  return 0;
 }
