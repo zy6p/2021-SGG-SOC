@@ -1,0 +1,6 @@
+[submodule "geohash/geohash-int"]
+	path = geohash/geohash-int
+	url = https://github.com/yinqiwen/geohash-int.git
+[submodule "geohash/geohash-cpp"]
+	path = geohash/geohash-cpp
+	url = https://github.com/windoze/geohash-cpp.git
