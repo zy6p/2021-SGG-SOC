@@ -98,6 +98,25 @@ h1 {
 
 ---
 
+# 原理
+
+<br>
+
+## 计算机基础
+
+1. 内存结构
+2. int, float 等位结构
+3. 进制
+
+<br>
+
+## 算法原理
+
+1. 二分法
+2. 位操作
+
+---
+
 <img
   src="https://geo.hotdry.top:18100/dl/img/world-hash.png"
 />
@@ -105,7 +124,6 @@ h1 {
 ---
 
 <img
-  src="https://geo.hotdry.top:18100/dl/img/geohash-base32.png"
+  src="https://geo.hotdry.top:18100/dl/img/ellipsoid.png"
 />
 
----

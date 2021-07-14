@@ -1,7 +1,7 @@
 #include "geohash.h"
 
 int main() {
-  Point p{114.20, 30.91, {0, 1}};
+  Point p{114.31, 30.52, {0, 1}};
 
   for (; p.geoHashBits.step <= 32; p.geoHashBits.step++) {
     p.geohash_encode();
