@@ -22,12 +22,49 @@
 
 ## 💻 仓库结构
 
-2021-SGG-SOC
+```shell
+.
+├── file
+│   ├── 7190.21O
+│   ├── main.cpp
+│   ├── rinexOReader.cpp
+│   └── rinexOReader.h
 ├── geohash
+│   ├── 7-14.pptx
 │   ├── CMakeLists.txt
+│   ├── geohash-cpp
+│   │   ├── CMakeLists.txt
+│   │   ├── geohash.cpp
+│   │   ├── geohash.hpp
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   └── test_geohash.cpp
 │   ├── geohash.cpp
 │   ├── geohash.h
+│   ├── geohash-int
+│   │   ├── geohash.c
+│   │   ├── geohash.h
+│   │   ├── LICENSE
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   └── test-geohash.c
 │   └── main.cpp
+├── pre
+│   └── SOC-01
+│       ├── 7-14.pptx
+│       ├── components
+│       │   └── Counter.vue
+│       ├── img
+│       │   ├── ellipsoid.png
+│       │   ├── geohash-base32.png
+│       │   └── world-hash.png
+│       ├── netlify.toml
+│       ├── package.json
+│       ├── README.md
+│       ├── slides.md
+│       ├── vercel.json
+│       └── yarn.lock
 └── README.md
+```
 
-1 directory, 5 files
+1841 directories, 9555 files
